@@ -25,7 +25,7 @@ function crearNodo(tipoNodo) {
   
   function adicionarNodoContenedor(contenedor,nodo) {
   
-    document.body.appendChild(nodo);
+    contenedor.appendChild(nodo);
   }
   
   function crearNodoA(texto, href){
